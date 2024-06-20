@@ -6,9 +6,4 @@ module.exports = {
     getElementByText: async function(obj) {
         return await $(`div=${obj.toString()}`);
     }
-    /*
-    getElementByText: async function(text) {
-        return await $(`//*[contains(text(), "${text}")]`);
-      }
-*/
 };
